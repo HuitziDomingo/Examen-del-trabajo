@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!--Navegador-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <a class="navbar-brand" href="#">LOGO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Incio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Contacto <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Acerca de <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Entrevistas <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Carrusel-->
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators" id='activeBtnHeaven'>
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active __h">
+                <img src="img/slide1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption __cc  d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                </div>
+            </div>
+            <div class="carousel-item __h">
+                <img src="img/slide2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption __cc  d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="carousel-item __h">
+                <img src="img/slide4.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption __cc  d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!--Cards-->
+    <main role="main">
+
+        <section class="jumbotron text-center">
+            <div class="container">
+                <h1>Titulo de la Noticia</h1>
+                <p class="lead text-muted">Something short and leading about the collection below—its contents, the
+                    creator,
+                    etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+            </div>
+        </section>
+
+        <div class="album py-5 bg-light">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="img/slide3.jpg" alt="">
+                            <div class="card-body">
+                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit cras fermentum sociis donec curae, maecenas non libero montes
+                                    dictum vulputate lacinia erat conubia vivamus. Hac accumsan commodo rutrum aliquet tellus montes placerat dis
+                                    parturient vulputate, nec torquent tortor sociis pellentesque justo diam dapibus in nullam, aptent cras volutpat
+                                    facilisi ridiculus lobortis sollicitudin et taciti. Nisl integer velit donec porttitor dictum pellentesque
+                                    vestibulum, senectus dapibus nam ad rutrum praesent aliquam, litora euismod cursus in habitasse cum.</p>
+                                <p>Taciti tempus lobortis cras malesuada ridiculus vel est dictumst volutpat, leo id nascetur aenean potenti libero
+                                    tellus eu. Fermentum ullamcorper praesent sagittis non class leo purus mi, rutrum dictumst tincidunt tortor luctus
+                                    pulvinar auctor, felis blandit magnis imperdiet vel eros ultrices. Facilisi enim accumsan hac suspendisse nibh
+                                    vulputate aliquet mollis rutrum parturient tempor turpis, arcu sapien fringilla orci convallis sodales massa
+                                    pharetra egestas eleifend fames, at nostra et non nulla lacinia ultrices eu dictumst velit sem.</p>
+                                <p>Penatibus luctus morbi mollis parturient rutrum blandit habitant, platea vehicula nisl consequat suscipit hac
+                                    sollicitudin, eget egestas nostra placerat ultricies lacus. Morbi nisl velit praesent fusce quam dictum rutrum ut,
+                                    hac vel mauris fames placerat a mollis magna congue, semper leo consequat est nostra lectus ac. Id primis facilisis
+                                    non magna tempor euismod vehicula per pharetra velit, facilisi ultrices varius et porttitor mollis montes egestas
+                                    luctus, natoque pulvinar ullamcorper suscipit vivamus purus quam orci duis. Dignissim montes bibendum eu tortor
+                                    suscipit curae laoreet malesuada mollis, nibh morbi neque dis aenean nec vivamus augue habitant venenatis, vulputate
+                                    mattis at dapibus primis curabitur etiam non.</p>
+                                <p>Sapien odio tempor hac ornare proin ac euismod litora, nec turpis justo pharetra facilisis ad semper platea felis,
+                                    mauris integer metus morbi tristique tortor elementum. Erat fusce tempor pharetra lacus metus curabitur ornare
+                                    sagittis parturient cubilia, at semper interdum consequat sapien vulputate sed morbi. Eget varius parturient
+                                    volutpat et vulputate consequat arcu urna placerat, mus potenti ultricies libero faucibus dis mauris.</p>
+                                <p>Senectus rhoncus per erat potenti pellentesque lacus, leo placerat torquent phasellus nisi, sodales curae conubia
+                                    orci convallis. Primis cras sem phasellus tempor dis sagittis volutpat magnis mauris arcu a convallis litora,
+                                    dictumst odio nostra proin erat maecenas senectus ornare porta himenaeos velit. Cubilia penatibus metus ultrices cum
+                                    parturient hendrerit netus, maecenas mauris tempor volutpat ad nam, ut senectus sociis condimentum ac velit.</p>
+                                <p>Purus fringilla porta nulla urna viverra nullam placerat sollicitudin himenaeos fermentum, curabitur integer semper
+                                    pulvinar mi aliquam lobortis aliquet facilisis cum taciti, sem senectus tellus suscipit magnis tristique blandit
+                                    praesent penatibus. Sed malesuada sociis porta vitae auctor ullamcorper penatibus, senectus natoque nascetur nibh
+                                    lacus volutpat enim proin, primis mi vivamus blandit semper porttitor. Pretium natoque erat integer vivamus dictum
+                                    arcu eleifend dignissim habitant, ullamcorper netus in mus suscipit commodo imperdiet ac, conubia cubilia non nisi
+                                    enim euismod proin volutpat. Euismod turpis arcu congue est rhoncus nostra, imperdiet urna odio cubilia sociis,
+                                    sapien mi ut elementum scelerisque.</p>
+                                    <img src="img/slide4.jpg" alt="">
+                                <p>Suspendisse tincidunt habitasse donec pellentesque urna nibh, dapibus scelerisque phasellus id sociosqu placerat,
+                                    suscipit turpis enim vestibulum nam. Id quis posuere sociis facilisi, suscipit at tempus. Quam ad platea semper nunc
+                                    feugiat vestibulum vel etiam proin eleifend convallis, fames curabitur nisl lacus iaculis dis neque est sapien
+                                    lacinia tortor, consequat maecenas mattis rhoncus felis potenti pharetra montes vulputate laoreet. Netus interdum
+                                    bibendum curae curabitur aenean sapien at egestas enim proin, suspendisse eros natoque fringilla tortor nisl mattis
+                                    leo habitasse, montes vitae faucibus suscipit conubia condimentum vehicula neque sociosqu.</p>
+                                <p>Vehicula non risus scelerisque gravida cras himenaeos lacinia, ut cubilia massa volutpat rutrum suspendisse, a cursus
+                                    netus congue sollicitudin interdum. Gravida egestas dictumst himenaeos pellentesque placerat lacus ultricies
+                                    sociosqu porta orci dictum, porttitor habitant malesuada at eleifend pretium tristique nisi ridiculus dis molestie,
+                                    taciti facilisi tellus nisl per enim suscipit leo euismod ante. Faucibus montes metus lacinia in augue class dapibus
+                                    fermentum feugiat convallis sem primis pulvinar ullamcorper luctus, sociis eget suspendisse enim blandit taciti cras
+                                    dis sagittis mollis placerat sapien nec etiam. Interdum dapibus pharetra porta curae ante malesuada augue,
+                                    parturient donec gravida aliquet eros suspendisse viverra dui, mi magna conubia pretium facilisi metus.</p>
+                                <p>Vulputate posuere eget commodo morbi convallis class vestibulum platea rhoncus luctus congue ante tortor lobortis
+                                    velit, aptent lacinia pulvinar nisl sodales nascetur felis libero proin faucibus arcu ridiculus quis. Maecenas
+                                    vulputate platea suscipit placerat per eu dictumst montes eget ornare sapien fringilla nisl, tincidunt hendrerit
+                                    nascetur accumsan mus gravida nam sodales a eros risus. Non sollicitudin scelerisque risus aptent proin sodales,
+                                    sociis velit netus id dictum praesent, lacinia turpis porttitor dis cum.</p>
+                                <p>Arcu tortor magna tempor aliquam nostra faucibus, nisl ut morbi malesuada eu dis, eros semper ac condimentum et.
+                                    Pulvinar pellentesque laoreet eget purus maecenas bibendum auctor neque vitae integer, donec mollis velit nunc
+                                    lacinia platea primis curae. Molestie nam pulvinar lacus commodo in integer class felis platea aptent, vehicula nisl
+                                    viverra auctor sapien nullam ad at tristique vitae, aliquam nascetur nunc pharetra fusce torquent etiam duis eu.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+    </main>
+
+    <!--Pied de pagina-->
+    <footer class="text-muted">
+        <div class="container">
+            <p class="float-right">
+                <a href="#">Back to top</a>
+            </p>
+            <p>Album example is © Bootstrap, but please download and customize it for yourself!</p>
+            <p>New to Bootstrap? <a href="https://getbootstrap.com/">Visit the homepage</a> or read our <a
+                    href="/docs/4.4/getting-started/introduction/">getting started guide</a>.</p>
+        </div>
+    </footer>
+    <!--Funciones JS-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+   
+</body>
+
+</html>
